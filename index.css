@@ -1,0 +1,22 @@
+h1.jumbotron-heading {
+    color: orange
+}
+
+.footer-list {
+    width: 540px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+
+}
+
+.images-nk {
+    height:200px;
+}
+
+.form-nk {
+    width: 50%;
+    margin:0 auto;
+}
