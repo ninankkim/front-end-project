@@ -10,39 +10,69 @@
     <title>Ramen</title>
 
 </head>
+    <script src="./ramen.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <body>
-</body>
-</html>
-<header>
-</header>
+    <header>
+        <!-- Nav tabs -->
+        <ul class="nav" id="navId">
+            <li class="nav-item">
+                <a href="./index.html" class="nav-link active">Home Page</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownMenu"data-toggle="dropdown" href="#" >Foods</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./ramen.html">Ramen</a>
+                    <a class="dropdown-item" href="./drink.html">Drinks</a>
+                    <a class="dropdown-item" href="./pasta.html">Pasta</a>
+                    <a class="dropdown-item" href="./food.html">Food</a>
+                    <a class="dropdown-item" href="./ask.html">Ask</a>
+                </div>
+            </li>
 
-<main role="main">
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">Ramen</h1>
-            <p class="lead text-muted">Did you ever want to learn how to cook some of your favorite dishes? 
-                Look no further! Down below, you will see a few selections of videos on how to cook those meals!</p>
-            <p>
-            </p>
-        </div>
-    </section>
-</main>
-
-<footer class="text-muted">
-    <div class="container">
-        <div class="footer-list">
-        <p>
-            <a href="#">Back to top</a>
-        </p>
-        </div>
-
-        <div class ="footer-list">
-        <ul class="list-group list-group-horizontal">
-            <li class="list-group-item"><a href = "https://github.com/phamand2">Andrew Pham</a></li>
-            <li class="list-group-item"><a href = "https://github.com/Derekjames93">Derek James</a></li>
-            <li class="list-group-item"><a href = "https://github.com/JC-2020">Jacky Cheung</a></li>
-            <li class="list-group-item"><a href = "https://github.com/ninankkim">Nina Kim</a></li>
+            <button type="reset" class="btn btn1 btn-success">Submit</button>
         </ul>
-        </div>
+    </header>
+    
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Ramen</h1>
+                <p class="lead text-muted">Did you ever want to learn how to cook some of your favorite dishes? <br>
+                    Look no further! Down below, you will see a few selections of videos on how to cook those meals!</p>
+                <p>
+                </p>
+            </div>
+        </section>
+    </main>
+    <div class="container d-flex justify-content-between">
+        <div class='d-flex justify-content-between' id="divIframe"></div>
+        <div class="d-flex" id="videoTitle"></div>
+        <h1 class="d-flex flex-column m-aut align-items-start title" ></h1>
+        <div class='d-flex flex-column m-auto' id="divIframe2"></div>       
     </div>
-</footer>
+    
+</body>
+        <footer class="text-muted">
+            <div class="container">
+                <div class="footer-list">
+                <p>
+                    <a href="./index.html">Back to Home</a>
+                </p>
+                </div>
+        
+                <div class ="footer-list">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><a href = "https://github.com/phamand2">Andrew Pham</a></li>
+                    <li class="list-group-item"><a href = "https://github.com/Derekjames93">Derek James</a></li>
+                    <li class="list-group-item"><a href = "https://github.com/JC-2020">Jacky Cheung</a></li>
+                    <li class="list-group-item"><a href = "https://github.com/ninankkim">Nina Kim</a></li>
+                </ul>
+                </div>
+            </div>
+        </footer>
+
+</html>
