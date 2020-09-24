@@ -12,9 +12,11 @@ h1.jumbotron-heading {
   }
   
   .glitch::before, .glow::before {
+    width: 100%;
     content: attr(data-text);
     position: absolute;
-    left: -2px;
+    transform: translateX(-50%);
+    left: 50%;
     text-shadow: -5px 0 black;
     overflow: hidden;
     top: 0;
@@ -22,9 +24,11 @@ h1.jumbotron-heading {
   }
   
   .glitch::after, .glow::after {
+    width:100%;
     content: attr(data-text);
     position: absolute;
-    left: 2px;
+    transform: translateX(-50%);
+    left: 50%;
     text-shadow: -5px 0 lightgreen;
     overflow: hidden;
     top: 0;
@@ -33,10 +37,10 @@ h1.jumbotron-heading {
   
   @keyframes glitch {
     1% {
-      transform: rotateX(10deg) skewX(90deg);
+      transform: translateX(-50%) rotateX(10deg) skewX(90deg);
     }
     2% {
-      transform: rotateX(0deg) skewX(0deg);
+      transform: translateX(-50%) rotateX(0deg) skewX(0deg);
     }
   }
   @keyframes noise-1 {
@@ -398,3 +402,11 @@ h1.jumbotron-heading {
     height: 85px
 }
 
+#canvas {
+    background: #6A1B9A;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
