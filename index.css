@@ -423,3 +423,88 @@ h1.jumbotron-heading {
 .ninafontstyle {
     font-family: 'Vollkorn SC';
 }
+
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+body{
+  background-color:black;
+color: #FFFFFF;
+  font-family: 'Overpass Mono', monospace;
+}
+.seperator{
+        -webkit-animation: color-change 25s infinite;
+        -moz-animation: color-change 25s infinite;
+        -o-animation: color-change 25s infinite;
+        -ms-animation: color-change 25s infinite;
+        animation: color-change 25s infinite;
+    }
+    @-webkit-keyframes color-change {
+        0% { color: #FF92C4; }
+        50% { color: #361800; }
+        100% { color: #F2E8A8; }
+    }
+    @-moz-keyframes color-change {
+           0% { color: #FF92C4; }
+        50% { color: #361800; }
+        100% { color: #F2E8A8; }
+    }
+    @-ms-keyframes color-change {
+          0% { color: #FF92C4; }
+        50% { color: #361800; }
+        100% { color: #F2E8A8; }
+    }
+    @-o-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @keyframes color-change {
+         0% { color: #FF92C4; }
+        50% { color: #361800; }
+        100% { color: #F2E8A8; }
+    }
+#kawaii-kitty{
+  height: 100px;
+  width: 50%;
+  margin: 5px auto;
+}
+#main-heading{
+  font-size:35px;
+}
+#donut{
+  height:75px;
+}
+#log{
+color:#FFFFFF;
+  text-
+}
+#cloud{
+  width: 150px;
+}
+#clear-div{
+  text-align: center;
+  opacity: 0.65;
+}
+#line-number{
+  color:#4891b6;
+  margin-right: 10px;
+  font-weight:900;
+}
+#warning-span{
+  color:#4891b6;
+  margin-right: 10px;
+  font-weight:900;
+}
+#warning-img{
+  width: 60px;
+}
+#warning-text{
+background-color:#e55e3b;
+}
+#caller-span{
+  color:#4891b6;
+  margin-right: 10px;
+  font-weight:900;
+}
+#caller-img{
+  width: 60px;
+}
