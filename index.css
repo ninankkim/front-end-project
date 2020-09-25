@@ -296,6 +296,7 @@ h1.jumbotron-heading {
     padding: 7px;
     position: relative;
     text-align: center;
+    max-width: 100%;
 
 }
 
