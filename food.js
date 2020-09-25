@@ -1,4 +1,4 @@
-const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/120467817485/?token=BZU2AGMQK7AESWXYITBJ'
+const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/120491528405/?token=BZU2AGMQK7AESWXYITBJ'
 
 
 async function loadEventBrite () {
