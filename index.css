@@ -1,5 +1,10 @@
 h1.jumbotron-heading {
-    color: orange
+    color: orange;
+    font-size: 100px;
+}
+
+.nomargin {
+    margin: 0px !important;
 }
 
   .glitch, .glow {
@@ -17,7 +22,7 @@ h1.jumbotron-heading {
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    text-shadow: -5px 0 black;
+    text-shadow: -5px 0 whitesmoke;
     overflow: hidden;
     top: 0;
     animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
@@ -409,4 +414,12 @@ h1.jumbotron-heading {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ninabackground {
+    background-color: black !important;
+}
+
+.ninafontstyle {
+    font-family: 'Vollkorn SC';
 }
