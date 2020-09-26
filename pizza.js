@@ -1,7 +1,7 @@
 const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/120067319585/?token=BZU2AGMQK7AESWXYITBJ'
 
 document.addEventListener('DOMContentLoaded', async () => {
-    loadEventBrite()
+    // loadEventBrite()
     // const video = await loadVideoData()
     // addVideo(video)
 })
@@ -16,7 +16,7 @@ async function loadEventBrite () {
         divIframe.appendChild(iFrame)
         const response = await fetch(eventBriteApi)
         const data = await response.json()
-        const link = await data.url
+        const link = await data.urlZ
         iFrame.setAttribute('src', link)
         return data;
         

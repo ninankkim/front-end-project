@@ -1,7 +1,7 @@
-const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/115883487631/?token=BZU2AGMQK7AESWXYITBJ'
+const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/101939780628/?token=BZU2AGMQK7AESWXYITBJ'
 
 document.addEventListener('DOMContentLoaded', async () => {
-    loadEventBrite()
+    // loadEventBrite()
     // const video = await loadVideoData()
     // addVideo(video)
 })

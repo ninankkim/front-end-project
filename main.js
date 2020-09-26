@@ -7,32 +7,26 @@ const btn5 = document.querySelector('.btn6')
 
 
 btn1.addEventListener('click', function(event){
-    console.log('hello world')
     event.preventDefault();
     window.location.href = "./pizza.html"
 })
 btn2.addEventListener('click', function(event){
-    console.log('hello world')
     event.preventDefault();
     window.location.href = "./ramen.html"
 })
 btn3.addEventListener('click', function(event){
-    console.log('hello world')
     event.preventDefault();
     window.location.href = "./drink.html"
 })
 btn4.addEventListener('click', function(event){
-    console.log('hello world')
     event.preventDefault();
     window.location.href = "./pasta.html"
 })
 btn5.addEventListener('click', function(event){
-    console.log('hello world')
     event.preventDefault();
     window.location.href = "./pizza.html"
 })
 btn6.addEventListener('click', function(event){
-    console.log('hello world')
     event.preventDefault();
     window.location.href = "./index.html"
 })

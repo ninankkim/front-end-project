@@ -3,7 +3,7 @@ const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/120491528405/?tok
 
 
 document.addEventListener('DOMContentLoaded', async () => {
-    loadEventBrite()
+    // loadEventBrite()
     // const video = await loadVideoData()
     // addVideo(video)
 })
