@@ -29,7 +29,7 @@ async function loadVideoData () {
     try {
         const response1 = await fetch (eventBriteApi);
         const data = await response1.json();
-        const youtubeData = `https://www.googleapis.com/youtube/v3/search/?part=snippet&q=${data.name.text}&key=AIzaSyA4oLid5kOieJZhkWcUb2zc0hM3t_vjusA
+        const youtubeData = `https://www.googleapis.com/youtube/v3/search/?part=snippet&q=${data.name.text}&key=AIzaSyACWKnhGlL2eJ46XLCAaoXFuDAaSYElIpw
     `
         const response2 = await fetch(youtubeData);
         const data2 = await response2.json();
@@ -37,7 +37,7 @@ async function loadVideoData () {
         return video;
         
     } catch (error) {
-        console.log(error)
+        console.log(console.error('Check Youtube API Quota'))
     }
 }
 

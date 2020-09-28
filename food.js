@@ -3,9 +3,9 @@ const eventBriteApi = 'https://www.eventbriteapi.com/v3/events/120491528405/?tok
 
 
 document.addEventListener('DOMContentLoaded', async () => {
-    loadEventBrite()
-    const video = await loadVideoData()
-    addVideo(video)
+    // loadEventBrite()
+    // const video = await loadVideoData()
+    // addVideo(video)
 })
 
 async function loadEventBrite () {
@@ -40,7 +40,7 @@ async function loadVideoData () {
         const response1 = await fetch (eventBriteApi);
         const data = await response1.json();
         // Assign a variable to take that data and have the YouTube API to search the text of that EventBrite name
-        const youtubeData = `https://www.googleapis.com/youtube/v3/search/?part=snippet&q=${data.name.text}&key=AIzaSyA4oLid5kOieJZhkWcUb2zc0hM3t_vjusA
+        const youtubeData = `https://www.googleapis.com/youtube/v3/search/?part=snippet&q=${data.name.text}&key=AIzaSyC26dSjpIa0W81IXM3L9YOwbnOtqZJ3QaA
         `
         const response2 = await fetch(youtubeData);
         const data2 = await response2.json();
@@ -48,7 +48,7 @@ async function loadVideoData () {
         const video = data2.items[0];
         return video;
     }catch(err) {
-    console.log(error)
+    console.log(console.error('Check Youtube API Quota'))
     }
 }
 
