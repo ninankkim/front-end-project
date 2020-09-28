@@ -16,7 +16,7 @@ async function loadEventBrite () {
         divIframe.appendChild(iFrame)
         const response = await fetch(eventBriteApi)
         const data = await response.json()
-        const link = await data.urlZ
+        const link = await data.url
         iFrame.setAttribute('src', link)
         return data;
         
