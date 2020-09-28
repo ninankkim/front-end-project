@@ -45,3 +45,19 @@ Event Pages
     4. The website utilizes lots of bootstrap components because it helped us create a foundation for how our website would look like - and using bootstrap, that made our layout more organized and easier to customize. So much of our HTML work was going back and filtering through some bootstrap code that would be unnecessary or cause functionality issues to our JavaScript. So, bootstrap definitely helped us create the bases of what our website's final product would look like, but there were lots of changes and add-ons. So, the project definitely helped us understand bootstrap more, and how easy - yet, sometimes, complicated it became.
     
     5. The biggest successes and struggles from working on HTML and CSS came from styling and formatting. Because we spent lots of time slowly adjusting the alignments, margins, borders, padding - just inspecting the pages to ensure our website would look congruent with our other pages. The title from our home page and other image animations utilized a preexisting code that would create "glitch" effects or movement - which we thought was a cool feature to add on.
+
+    API KEYS
+    
+        -YouTube api key = AIzaSyB5x3rJYXZmqWw9J4EIvLolwCvq-Ig_Jnk
+
+        -YouTube 2 api key = AIzaSyC26dSjpIa0W81IXM3L9YOwbnOtqZJ3QaA
+
+        -YouTube 3 api key = AIzaSyACWKnhGlL2eJ46XLCAaoXFuDAaSYElIpw
+
+
+        -YouTube 4  api key = AIzaSyBw7ldeQl94AT_dRmGV5mWjupsyaq2pBfI
+
+        -YouTube 5 api key = AIzaSyA4oLid5kOieJZhkWcUb2zc0hM3t_vjusA
+
+
+
